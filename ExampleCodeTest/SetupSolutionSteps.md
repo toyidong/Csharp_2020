@@ -1,4 +1,4 @@
-## Steps for set up a dotnent solution ##
+## Steps for set up a dotnet solution ##
 
 1. Create a folder `ExampleCodeTest` and go into this folder
 ```sh
@@ -107,7 +107,7 @@ namespace Chapter04ExampleCode
 ```
 9.  Now you have everything setup. 
 10. How to run your project:
-- Without build first0: 
+- Without build first: 
   - Go back WrapperProject folder, 
   - run your WrapperProject with `dotnet run`, 
 
