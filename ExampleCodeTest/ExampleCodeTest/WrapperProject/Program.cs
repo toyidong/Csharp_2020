@@ -18,7 +18,6 @@ namespace WrapperProject
 
             Class04 c4 = new Class04();
             c4.NonStaticPrint();
-
         }
     }
 }
