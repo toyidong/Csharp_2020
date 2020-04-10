@@ -17,7 +17,7 @@ dotnet new sln --name ExampleCodeTest
 </pre>
 </div>
 
-3. Create first console project with a name parameter (this will create new project in a subfolder) 
+3. Create first **console** project with a name parameter (this will create new project in a subfolder) 
 
 <div style="background:black;color:white">
 <pre>
