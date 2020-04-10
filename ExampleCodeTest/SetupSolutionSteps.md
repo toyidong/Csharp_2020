@@ -1,47 +1,63 @@
 ## Steps for set up a dotnet solution ##
 
 1. Create a folder `ExampleCodeTest` and go into this folder
-```sh
+
+<div style="background:black;color:white">
+<pre>
 mkdir ExampleCodeTest
 cd ./ExampleCodeTest
-```
+</pre>
+</div>
 
 2. Create a solution file
-```sh
+
+<div style="background:black;color:white">
+<pre>
 dotnet new sln --name ExampleCodeTest
-```
+</pre>
+</div>
 
 3. Create first console project with a name parameter (this is create new project in a subfolder) 
 
-```sh
+<div style="background:black;color:white">
+<pre>
 dotnet new console --name WrapperProject
-```
+</pre>
+</div>
+
 4. Add new project in to solution and list project
 
-```sh
+<div style="background:black;color:white">
+<pre>
 dotnet sln add ./WrapperProject
 dotnet sln list
-```
+</pre>
+</div>
 the WrapperProject will be added into ExampleCodeTest.sln file.
 
 5. Create other class library projects for the WrapperProject, remember to use --name parameter, so each project will in its own subfolder. These projects are class library so that they can be added as references to WrapperProject
 
-```sh
+<div style="background:black;color:white">
+<pre>
 dotnet new classlib --name Chapter04ExampleCode
 dotnet new classlib --name Chapter05ExampleCode
 dotnet new classlib --name Chapter04ExampleCode
 dotnet new classlib --name Chapter05ExampleCode
-```
+</pre>
+</div>
 
 6. In order to add other projects to WrapperProject, need to add reference to `WrapperProject.csproj` file. Go into WrapperProject folder, add reference to WrapperProject
 
-```sh
+<div style="background:black;color:white">
+<pre>
 cd ./WrapperProject
 dotnet add reference ../Chapter04ExampleCode
 dotnet add reference ../Chapter04ExampleCode
 dotnet add reference ../Chapter04ExampleCode
 dotnet add reference ../Chapter04ExampleCode
-```
+</pre>
+</div>
+
 these references will be added to WrapperProject.csproj file.
 
 7. Whenever you want to use classes/methods from other projects, just include that project namespace in your file, for example, including Chapter04ExampleCode and Chapter05ExampleCode in WrapperProject/Program.cs file
@@ -111,10 +127,13 @@ namespace Chapter04ExampleCode
   - Go back WrapperProject folder, 
   - run your WrapperProject with `dotnet run`, 
 
-```sh
+<div style="background:black;color:white">
+<pre>
 cd ./WrapperProject
 dotnet run
-``` 
+</pre>
+</div>
+ 
 or 
 
 - With build first: 
@@ -123,9 +142,11 @@ or
   - the default folder path for build will be in `./WrapperProject/bin/Debug/netcoreapp3.1/` folder, 
   - go to this folder and run with `dotnet WrapperProject.dll` **(notice only run .dll with dotnet, NOT with dotnet run)**
 
-```sh
+<div style="background:black;color:white">
+<pre>
 dotnet build
 cd ./WrapperProject/bin/Debug/netcoreapp3.1/
 dotnet WrapperProject.dll
+</pre>
+</div>
 
-```
