@@ -9,3 +9,14 @@
 /home/yi/projects/Csharp/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.AssemblyInfo.cs
 /home/yi/projects/Csharp/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.dll
 /home/yi/projects/Csharp/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.pdb
+/home/yi/projects/Csharp_2020/myCsharp/bin/Debug/netcoreapp3.1/myCsharp
+/home/yi/projects/Csharp_2020/myCsharp/bin/Debug/netcoreapp3.1/myCsharp.deps.json
+/home/yi/projects/Csharp_2020/myCsharp/bin/Debug/netcoreapp3.1/myCsharp.runtimeconfig.json
+/home/yi/projects/Csharp_2020/myCsharp/bin/Debug/netcoreapp3.1/myCsharp.runtimeconfig.dev.json
+/home/yi/projects/Csharp_2020/myCsharp/bin/Debug/netcoreapp3.1/myCsharp.dll
+/home/yi/projects/Csharp_2020/myCsharp/bin/Debug/netcoreapp3.1/myCsharp.pdb
+/home/yi/projects/Csharp_2020/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.csprojAssemblyReference.cache
+/home/yi/projects/Csharp_2020/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.AssemblyInfoInputs.cache
+/home/yi/projects/Csharp_2020/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.AssemblyInfo.cs
+/home/yi/projects/Csharp_2020/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.dll
+/home/yi/projects/Csharp_2020/myCsharp/obj/Debug/netcoreapp3.1/myCsharp.pdb

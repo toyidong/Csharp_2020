@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Chapter04ExampleCode/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter04ExampleCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter04ExampleCode.dll": {}
+        }
+      },
+      "Chapter05ExampleCode/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter05ExampleCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter05ExampleCode.dll": {}
+        }
+      },
+      "Chapter06ExampleCode/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter06ExampleCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter06ExampleCode.dll": {}
+        }
+      },
+      "Chapter07ExampleCode/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter07ExampleCode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter07ExampleCode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chapter04ExampleCode/1.0.0": {
+      "type": "project",
+      "path": "../Chapter04ExampleCode/Chapter04ExampleCode.csproj",
+      "msbuildProject": "../Chapter04ExampleCode/Chapter04ExampleCode.csproj"
+    },
+    "Chapter05ExampleCode/1.0.0": {
+      "type": "project",
+      "path": "../Chapter05ExampleCode/Chapter05ExampleCode.csproj",
+      "msbuildProject": "../Chapter05ExampleCode/Chapter05ExampleCode.csproj"
+    },
+    "Chapter06ExampleCode/1.0.0": {
+      "type": "project",
+      "path": "../Chapter06ExampleCode/Chapter06ExampleCode.csproj",
+      "msbuildProject": "../Chapter06ExampleCode/Chapter06ExampleCode.csproj"
+    },
+    "Chapter07ExampleCode/1.0.0": {
+      "type": "project",
+      "path": "../Chapter07ExampleCode/Chapter07ExampleCode.csproj",
+      "msbuildProject": "../Chapter07ExampleCode/Chapter07ExampleCode.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Chapter04ExampleCode >= 1.0.0",
+      "Chapter05ExampleCode >= 1.0.0",
+      "Chapter06ExampleCode >= 1.0.0",
+      "Chapter07ExampleCode >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/yi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/WrapperProject/WrapperProject.csproj",
+      "projectName": "WrapperProject",
+      "projectPath": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/WrapperProject/WrapperProject.csproj",
+      "packagesPath": "/home/yi/.nuget/packages/",
+      "outputPath": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/WrapperProject/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/yi/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/Chapter04ExampleCode.csproj": {
+              "projectPath": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/Chapter04ExampleCode.csproj"
+            },
+            "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter05ExampleCode/Chapter05ExampleCode.csproj": {
+              "projectPath": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter05ExampleCode/Chapter05ExampleCode.csproj"
+            },
+            "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter06ExampleCode/Chapter06ExampleCode.csproj": {
+              "projectPath": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter06ExampleCode/Chapter06ExampleCode.csproj"
+            },
+            "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter07ExampleCode/Chapter07ExampleCode.csproj": {
+              "projectPath": "/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter07ExampleCode/Chapter07ExampleCode.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

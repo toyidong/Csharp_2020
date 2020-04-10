@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chapter04ExampleCode\Chapter04ExampleCode.csproj" />
+    <ProjectReference Include="..\Chapter05ExampleCode\Chapter05ExampleCode.csproj" />
+    <ProjectReference Include="..\Chapter06ExampleCode\Chapter06ExampleCode.csproj" />
+    <ProjectReference Include="..\Chapter07ExampleCode\Chapter07ExampleCode.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

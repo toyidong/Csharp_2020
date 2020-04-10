@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/yi/projects/Csharp/myCsharp/myCsharp.csproj": {}
+    "/home/yi/projects/Csharp_2020/myCsharp/myCsharp.csproj": {}
   },
   "projects": {
-    "/home/yi/projects/Csharp/myCsharp/myCsharp.csproj": {
+    "/home/yi/projects/Csharp_2020/myCsharp/myCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/yi/projects/Csharp/myCsharp/myCsharp.csproj",
+        "projectUniqueName": "/home/yi/projects/Csharp_2020/myCsharp/myCsharp.csproj",
         "projectName": "myCsharp",
-        "projectPath": "/home/yi/projects/Csharp/myCsharp/myCsharp.csproj",
+        "projectPath": "/home/yi/projects/Csharp_2020/myCsharp/myCsharp.csproj",
         "packagesPath": "/home/yi/.nuget/packages/",
-        "outputPath": "/home/yi/projects/Csharp/myCsharp/obj/",
+        "outputPath": "/home/yi/projects/Csharp_2020/myCsharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/yi/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,8 @@
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/bin/Debug/netstandard2.0/Chapter04ExampleCode.deps.json
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/bin/Debug/netstandard2.0/Chapter04ExampleCode.dll
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/bin/Debug/netstandard2.0/Chapter04ExampleCode.pdb
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/obj/Debug/netstandard2.0/Chapter04ExampleCode.csprojAssemblyReference.cache
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/obj/Debug/netstandard2.0/Chapter04ExampleCode.AssemblyInfoInputs.cache
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/obj/Debug/netstandard2.0/Chapter04ExampleCode.AssemblyInfo.cs
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/obj/Debug/netstandard2.0/Chapter04ExampleCode.dll
+/home/yi/projects/Csharp_2020/ExampleCodeTest/ExampleCodeTest/Chapter04ExampleCode/obj/Debug/netstandard2.0/Chapter04ExampleCode.pdb
