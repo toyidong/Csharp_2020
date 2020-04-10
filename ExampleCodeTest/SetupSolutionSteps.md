@@ -19,8 +19,8 @@ dotnet new sln --name ExampleCodeTest
 
 3. Create first **console** project with a name parameter (this will create new project in a subfolder) 
 
-<div >
-<pre style="background-color: #a0b2c3;font-weight: bold;color: #c3c5c7;">
+<div class="myDiv" style="background-color: #a0b2c3;font-weight: bold;color: #c3c5c7;">
+<pre>
 dotnet new console --name WrapperProject
 </pre>
 </div>
