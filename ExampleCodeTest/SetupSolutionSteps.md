@@ -54,7 +54,6 @@ dotnet add reference ../Chapter04ExampleCode
 dotnet add reference ../Chapter05ExampleCode
 </pre>
 </div>
-
 these references will be added to WrapperProject.csproj file.
 
 
