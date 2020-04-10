@@ -35,32 +35,28 @@ dotnet sln list
 </div>
 the WrapperProject will be added into ExampleCodeTest.sln file.
 
-5. Create other class library projects for the WrapperProject, remember to use --name parameter, so each project will in its own subfolder. These projects are class library so that they can be added as references to WrapperProject
+5. Create other **class library** projects for the WrapperProject, remember to use --name parameter, so each project will in its own subfolder. These projects are class library so that they can be added as references to WrapperProject
 
 <div style="background:black;color:white">
 <pre>
 dotnet new classlib --name Chapter04ExampleCode
 dotnet new classlib --name Chapter05ExampleCode
-dotnet new classlib --name Chapter04ExampleCode
-dotnet new classlib --name Chapter05ExampleCode
 </pre>
 </div>
 
-6. In order to add other projects to WrapperProject, need to add reference to `WrapperProject.csproj` file. Go into WrapperProject folder, add reference to WrapperProject
+1. In order to add other projects to WrapperProject, need to add reference to `WrapperProject.csproj` file. Go into WrapperProject folder, add reference to WrapperProject
 
 <div style="background:black;color:white">
 <pre>
 cd ./WrapperProject
 dotnet add reference ../Chapter04ExampleCode
-dotnet add reference ../Chapter04ExampleCode
-dotnet add reference ../Chapter04ExampleCode
-dotnet add reference ../Chapter04ExampleCode
+dotnet add reference ../Chapter05ExampleCode
 </pre>
 </div>
 
 these references will be added to WrapperProject.csproj file.
 
-7. Whenever you want to use classes/methods from other projects, just include that project namespace in your file, for example, including Chapter04ExampleCode and Chapter05ExampleCode in WrapperProject/Program.cs file
+1. Whenever you want to use classes/methods from other projects, just include that project namespace in your file, for example, including Chapter04ExampleCode and Chapter05ExampleCode in WrapperProject/Program.cs file
 
 ```csharp
 using System;
